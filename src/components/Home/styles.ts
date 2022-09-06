@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.section`
-  padding: 0 2.8rem;
-  margin-top: 3.2rem;
+  padding: 6rem 2.8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

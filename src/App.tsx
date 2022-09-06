@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
+import { About } from "./components/About";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { GlobalStyle } from "./styles/global";
@@ -20,6 +21,7 @@ export function App() {
       <Header toogleTheme={toogleTheme} theme={theme} />
 
       <Home />
+      <About />
     </ThemeProvider>
   );
 }
