@@ -4,4 +4,5 @@ export const darkTheme = {
   "link-hover": "#A5C9CA",
   button: "#D4ECDD",
   "button-bg": "#1363DF",
+  "footer-bg": "#06283D",
 };

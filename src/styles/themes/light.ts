@@ -4,4 +4,5 @@ export const lightTheme = {
   "link-hover": "#395B64",
   button: "#D4ECDD",
   "button-bg": "#1363DF",
+  "footer-bg": "#A5C9CA",
 };

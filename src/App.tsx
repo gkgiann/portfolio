@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { About } from "./components/About";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { Techs } from "./components/Techs";
@@ -24,6 +25,8 @@ export function App() {
       <Home />
       <About />
       <Techs />
+
+      <Footer />
     </ThemeProvider>
   );
 }

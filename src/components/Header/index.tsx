@@ -8,11 +8,11 @@ interface HeaderProps {
 
 export function Header({ toogleTheme, theme }: HeaderProps) {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="header">
       <Link href="#about">Sobre</Link>
       <Link href="#techs">Tecnologias</Link>
       <Link href="#projects">Projetos</Link>
-      <Link href="#contact">Contato</Link>
+      <Link href="#footer">Contato</Link>
 
       <IconButton onClick={toogleTheme} title="Trocar tema">
         {theme === "dark" ? <Moon weight="bold" /> : <Sun weight="bold" />}
