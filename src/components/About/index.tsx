@@ -1,4 +1,4 @@
-import { AboutContainer } from "./styles";
+import { AboutContainer, LinkButton } from "./styles";
 
 export function About() {
   return (
@@ -18,6 +18,10 @@ export function About() {
           ensino médio no IFPB e agora estou cursando Ciência da Computação na
           UEPB.
         </p>
+
+        <LinkButton href="mailto:lgian584@gmail.com" target="_blank">
+          Entre em contato
+        </LinkButton>
       </div>
     </AboutContainer>
   );
