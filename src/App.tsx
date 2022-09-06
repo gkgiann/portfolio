@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { Header } from "./components/Header";
+import { Home } from "./components/Home";
 import { GlobalStyle } from "./styles/global";
 import { darkTheme } from "./styles/themes/dark";
 import { lightTheme } from "./styles/themes/light";
@@ -18,7 +19,7 @@ export function App() {
 
       <Header toogleTheme={toogleTheme} theme={theme} />
 
-      <h1>Hello World</h1>
+      <Home />
     </ThemeProvider>
   );
 }

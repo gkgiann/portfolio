@@ -15,11 +15,7 @@ export function Header({ toogleTheme, theme }: HeaderProps) {
       <Link href="#contact">Contato</Link>
 
       <IconButton onClick={toogleTheme} title="Trocar tema">
-        {theme === "dark" ? (
-          <Moon size={20} weight="bold" />
-        ) : (
-          <Sun size={20} weight="bold" />
-        )}
+        {theme === "dark" ? <Moon weight="bold" /> : <Sun weight="bold" />}
       </IconButton>
     </HeaderContainer>
   );

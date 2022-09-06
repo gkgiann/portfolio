@@ -8,6 +8,10 @@ export const HeaderContainer = styled.header`
   gap: 1.2rem;
 
   padding: 2.4rem 2.8rem;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
 `;
 
 export const Link = styled.a`
@@ -34,5 +38,10 @@ export const IconButton = styled.button`
   &:hover {
     transition: color 0.2s;
     color: ${(p) => p.theme["link-hover"]};
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
   }
 `;
