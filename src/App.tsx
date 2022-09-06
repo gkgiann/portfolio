@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { About } from "./components/About";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
+import { Techs } from "./components/Techs";
 import { GlobalStyle } from "./styles/global";
 import { darkTheme } from "./styles/themes/dark";
 import { lightTheme } from "./styles/themes/light";
@@ -22,6 +23,7 @@ export function App() {
 
       <Home />
       <About />
+      <Techs />
     </ThemeProvider>
   );
 }
