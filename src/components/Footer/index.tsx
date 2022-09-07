@@ -15,34 +15,32 @@ export function Footer() {
           href="https://github.com/gian-lucas"
           target="_blank"
         >
-          <GithubLogo weight="fill" size={36} />
+          <GithubLogo weight="fill" size={30} />
         </a>
         <a
           title="LinkedIn - Gian"
           href="https://www.linkedin.com/in/gian-lucas-66299618b"
           target="_blank"
         >
-          <LinkedinLogo weight="fill" size={36} />
+          <LinkedinLogo weight="fill" size={30} />
         </a>
         <a
           title="Instagram - Gian"
           href="https://instagram.com/gian.tsx"
           target="_blank"
         >
-          <InstagramLogo weight="fill" size={36} />
+          <InstagramLogo weight="fill" size={30} />
         </a>
         <a
           title="Gmail - Gian"
           href="mailto:lgian584@gmail.com"
           target="_blank"
         >
-          <EnvelopeSimple weight="fill" size={36} />
+          <EnvelopeSimple weight="fill" size={30} />
         </a>
       </div>
 
-      <p>
-        Gian Lucas ©2022 | <a href="#header">Voltar ao topo</a>
-      </p>
+      <p>Gian ©2022. Todos os direitos reservados.</p>
     </FooterContainer>
   );
 }

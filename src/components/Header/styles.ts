@@ -5,7 +5,8 @@ export const HeaderContainer = styled.header`
   justify-content: flex-end;
   align-items: center;
 
-  gap: 1.2rem;
+  gap: 2rem;
+  font-size: 1.8rem;
 
   padding: 2.4rem 2.8rem;
 

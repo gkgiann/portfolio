@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  padding: 10rem 2.8rem;
+  padding: 8rem 2.8rem;
   background: ${(p) => p.theme["footer-bg"]};
 
-  font-size: 2rem;
+  font-size: 1.8rem;
 
   display: flex;
   justify-content: center;
