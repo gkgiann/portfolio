@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { About } from "./components/About";
+import { ButtonToTop } from "./components/ButtonToTop";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
@@ -25,8 +26,9 @@ export function App() {
       <Home />
       <About />
       <Techs />
-
       <Footer />
+
+      <ButtonToTop />
     </ThemeProvider>
   );
 }
