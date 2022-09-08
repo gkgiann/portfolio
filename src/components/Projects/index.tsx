@@ -35,7 +35,7 @@ export function Projects() {
 
   return (
     <ProjectsContainer id="projects">
-      <h1>Projetos</h1>
+      <h1 data-aos="fade-right">Projetos</h1>
 
       <ProjectsList>
         {projects.map((project) => {

@@ -10,16 +10,16 @@ interface ProjectProps {
 export function Project({ githubUrl, info, title, url }: ProjectProps) {
   return (
     <ProjectContainer>
-      <img src={url} alt={title} />
+      <img data-aos="fade-right" src={url} alt={title} />
 
       <ProjectInfo>
         <div>
-          <h1>{title}</h1>
+          <h1 data-aos="fade-down">{title}</h1>
 
-          <p>{info}</p>
+          <p data-aos="zoom-in"> {info}</p>
         </div>
 
-        <a href={githubUrl} target="_blank">
+        <a data-aos="fade-up" href={githubUrl} target="_blank">
           Acessar repositório
         </a>
       </ProjectInfo>

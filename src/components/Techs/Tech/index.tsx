@@ -7,7 +7,7 @@ interface TechProps {
 
 export function Tech({ src, title }: TechProps) {
   return (
-    <TechContainer data-aos="flip-up" data-aos-duration={1000}>
+    <TechContainer data-aos="flip-up">
       <img alt={title} src={src} />
       <strong>{title}</strong>
     </TechContainer>
