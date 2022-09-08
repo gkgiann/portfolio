@@ -13,9 +13,20 @@ export const HeaderContainer = styled.header`
   @media (max-width: 500px) {
     justify-content: center;
   }
+
+  @keyframes child-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-10rem);
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Link = styled.a`
+  animation: child-animation 2s;
   text-decoration: none;
   font-weight: 700;
 
@@ -28,6 +39,7 @@ export const Link = styled.a`
 `;
 
 export const IconButton = styled.button`
+  animation: child-animation 2s;
   display: flex;
   justify-content: center;
   align-items: center;
