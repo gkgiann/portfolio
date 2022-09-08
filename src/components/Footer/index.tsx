@@ -11,6 +11,7 @@ export function Footer() {
     <FooterContainer id="footer">
       <div>
         <a
+          data-aos="fade-right"
           title="GitHub - Gian"
           href="https://github.com/gian-lucas"
           target="_blank"
@@ -18,6 +19,7 @@ export function Footer() {
           <GithubLogo weight="fill" size={30} />
         </a>
         <a
+          data-aos="fade-down"
           title="LinkedIn - Gian"
           href="https://www.linkedin.com/in/gian-lucas-66299618b"
           target="_blank"
@@ -25,6 +27,7 @@ export function Footer() {
           <LinkedinLogo weight="fill" size={30} />
         </a>
         <a
+          data-aos="fade-up"
           title="Instagram - Gian"
           href="https://instagram.com/gian.tsx"
           target="_blank"
@@ -32,6 +35,7 @@ export function Footer() {
           <InstagramLogo weight="fill" size={30} />
         </a>
         <a
+          data-aos="fade-left"
           title="Gmail - Gian"
           href="mailto:lgian584@gmail.com"
           target="_blank"
