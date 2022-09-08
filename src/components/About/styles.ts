@@ -55,14 +55,11 @@ export const LinkButton = styled.a`
   border-radius: 8px;
   font-weight: 700;
   padding: 1.2rem 1.6rem;
-  border: 2px solid transparent;
+  border: 2px solid ${(p) => p.theme["button-bg"]};
   color: ${(p) => p.theme.button};
   background: ${(p) => p.theme["button-bg"]};
 
   &:hover {
-    transition: 0.3s;
-
-    border-color: ${(p) => p.theme["button-bg"]};
     color: ${(p) => p.theme["button-bg"]};
     background: transparent;
   }

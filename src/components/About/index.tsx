@@ -4,13 +4,14 @@ export function About() {
   return (
     <AboutContainer id="about">
       <img
+        data-aos="fade-right"
         src="https://avatars.githubusercontent.com/u/67169105?v=4"
         alt="Gian Lucas"
       />
 
       <div>
-        <h1>Sobre mim</h1>
-        <p>
+        <h1 data-aos="fade-down">Sobre mim</h1>
+        <p data-aos="zoom-in">
           Opa! Tudo bem? me chamo Gian Lucas, tenho 17 anos e sou apaixonado por
           desenvolvimento web. Atualmente estou focado em estudar a stack
           ReactJS + NextJS e algumas libs como o TailwindCSS, Sass e
@@ -19,7 +20,11 @@ export function About() {
           UEPB.
         </p>
 
-        <LinkButton href="mailto:lgian584@gmail.com" target="_blank">
+        <LinkButton
+          data-aos="fade-up"
+          href="mailto:lgian584@gmail.com"
+          target="_blank"
+        >
           Entre em contato
         </LinkButton>
       </div>

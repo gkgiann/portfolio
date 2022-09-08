@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { ThemeProvider } from "styled-components";
 import { About } from "./components/About";
 import { ButtonToTop } from "./components/ButtonToTop";
@@ -17,6 +19,13 @@ export function App() {
   function toogleTheme() {
     setTheme(theme === "dark" ? "light" : "dark");
   }
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+    AOS.refresh();
+  }, []);
 
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
