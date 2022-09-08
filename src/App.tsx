@@ -5,6 +5,7 @@ import { ButtonToTop } from "./components/ButtonToTop";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Home } from "./components/Home";
+import { Projects } from "./components/Projects";
 import { Techs } from "./components/Techs";
 import { GlobalStyle } from "./styles/global";
 import { darkTheme } from "./styles/themes/dark";
@@ -26,6 +27,7 @@ export function App() {
       <Home />
       <About />
       <Techs />
+      <Projects />
       <Footer />
 
       <ButtonToTop />
