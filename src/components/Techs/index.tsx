@@ -4,7 +4,7 @@ import { Tech } from "./Tech";
 export function Techs() {
   return (
     <TechsContainer id="techs">
-      <h1>Tecnologias</h1>
+      <h1 data-aos="fade-right">Tecnologias</h1>
 
       <TechsDiv>
         <Tech
