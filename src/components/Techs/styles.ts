@@ -16,26 +16,3 @@ export const TechsDiv = styled.div`
   gap: 8rem;
   justify-content: center;
 `;
-
-export const Tech = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex-direction: column;
-  gap: 2rem;
-
-  font-size: 2rem;
-
-  img {
-    width: 14rem;
-    height: 14rem;
-
-    cursor: pointer;
-    transition: 0.3s;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-`;

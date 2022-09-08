@@ -1,4 +1,5 @@
-import { Tech, TechsContainer, TechsDiv } from "./styles";
+import { TechsContainer, TechsDiv } from "./styles";
+import { Tech } from "./Tech";
 
 export function Techs() {
   return (
@@ -6,85 +7,55 @@ export function Techs() {
       <h1>Tecnologias</h1>
 
       <TechsDiv>
-        <Tech>
-          <img
-            alt="HTML5"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-          />
-          <strong>HTML5</strong>
-        </Tech>
+        <Tech
+          title="HTML5"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="CSS3"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-          />
-          <strong>CSS3</strong>
-        </Tech>
+        <Tech
+          title="CSS3"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="JavaScript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          />
-          <strong>JavaScript</strong>
-        </Tech>
+        <Tech
+          title="JavaScript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="TypeScript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-          />
-          <strong>TypeScript</strong>
-        </Tech>
+        <Tech
+          title="TypeScript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="ReactJS"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          />
-          <strong>ReactJS</strong>
-        </Tech>
+        <Tech
+          title="ReactJS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="NextJS"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-          />
-          <strong>NextJS</strong>
-        </Tech>
+        <Tech
+          title="NextJS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="TailwindCSS"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-          />
-          <strong>TailwindCSS</strong>
-        </Tech>
+        <Tech
+          title="TailwindCSS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        />
 
-        <Tech>
-          <img
-            alt="Sass"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-          />
-          <strong>Sass</strong>
-        </Tech>
+        <Tech
+          title="Sass"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="GitHub"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-          />
-          <strong>GitHub</strong>
-        </Tech>
+        <Tech
+          title="GitHub"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        />
 
-        <Tech>
-          <img
-            alt="Git"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-          />
-          <strong>Git</strong>
-        </Tech>
+        <Tech
+          title="Git"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        />
       </TechsDiv>
     </TechsContainer>
   );
