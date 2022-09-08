@@ -33,10 +33,16 @@ export const AboutContainer = styled.main`
   @media (max-width: 710px) {
     display: flex;
     margin: 0 auto;
+    padding-top: 4rem;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 4rem;
+
+    div {
+      justify-content: center;
+      align-items: center;
+    }
 
     img {
       max-width: 350px;
