@@ -12,7 +12,7 @@ export function About() {
       <div>
         <h1 data-aos="fade-down">Sobre mim</h1>
         <p data-aos="zoom-in">
-          Opa! Tudo bem? me chamo Gian Lucas, tenho 17 anos e sou apaixonado por
+          Opa! Tudo bem? me chamo Gian Lucas, tenho 18 anos e sou apaixonado por
           desenvolvimento web. Atualmente estou focado em estudar a stack
           ReactJS + NextJS e algumas libs como o TailwindCSS, Sass e
           styled-components. Fiz o curso técnico em informática integrado ao
