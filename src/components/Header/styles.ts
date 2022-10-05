@@ -10,8 +10,8 @@ export const HeaderContainer = styled.header`
 
   padding: 2.4rem 2.8rem;
 
-  @media (max-width: 500px) {
-    justify-content: center;
+  @media (max-width: 710px) {
+    display: none;
   }
 
   @keyframes child-animation {

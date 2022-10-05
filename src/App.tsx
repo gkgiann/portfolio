@@ -12,9 +12,15 @@ import { Techs } from "./components/Techs";
 import { GlobalStyle } from "./styles/global";
 import { darkTheme } from "./styles/themes/dark";
 import { lightTheme } from "./styles/themes/light";
+import { MenuMobile } from "./components/MenuMobile";
 
 export function App() {
   const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const [menuMobileIsOpen, setMenuMobileIsOpen] = useState(false);
+
+  function setIsOpen(isOpen: boolean) {
+    setMenuMobileIsOpen(isOpen);
+  }
 
   function toogleTheme() {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -31,6 +37,12 @@ export function App() {
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
       <GlobalStyle />
 
+      <MenuMobile
+        toogleTheme={toogleTheme}
+        theme={theme}
+        isOpen={menuMobileIsOpen}
+        setIsOpen={setIsOpen}
+      />
       <Header toogleTheme={toogleTheme} theme={theme} />
 
       <Home />

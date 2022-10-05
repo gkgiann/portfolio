@@ -33,7 +33,7 @@ export const AboutContainer = styled.main`
   @media (max-width: 710px) {
     display: flex;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 2rem;
 
     flex-direction: column;
     justify-content: center;

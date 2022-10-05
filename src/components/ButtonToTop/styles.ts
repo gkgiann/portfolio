@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonToTopContainer = styled.a`
+export const ButtonToTopContainer = styled.button`
   background: ${(p) => p.theme.text};
   color: ${(p) => p.theme.bg};
 
@@ -15,12 +15,14 @@ export const ButtonToTopContainer = styled.a`
 
   padding: 0.8rem;
   border-radius: 50%;
+  border: none;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   transition: 0.3s;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.1) rotate(360deg);

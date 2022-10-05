@@ -12,10 +12,14 @@ export function ButtonToTop() {
     });
   }, []);
 
+  function handleButtonClick() {
+    window.scrollTo({ top: 0 });
+  }
+
   return (
     <>
       {scrollValue > 200 && (
-        <ButtonToTopContainer href="#header">
+        <ButtonToTopContainer onClick={handleButtonClick}>
           <ArrowUp size={16} weight="bold" />
         </ButtonToTopContainer>
       )}
