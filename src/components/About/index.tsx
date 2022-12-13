@@ -14,10 +14,9 @@ export function About() {
         <p data-aos="zoom-in">
           Opa! Tudo bem? me chamo Gian Lucas, tenho 18 anos e sou apaixonado por
           desenvolvimento web. Atualmente estou focado em estudar a stack
-          ReactJS + NextJS e algumas libs como o TailwindCSS, Sass e
-          styled-components. Fiz o curso técnico em informática integrado ao
-          ensino médio no IFPB e agora estou cursando Ciência da Computação na
-          UEPB.
+          ReactJS + NextJS no front-end e NodeJS + (Express / NestJS) no
+          back-end. Fiz o curso técnico em informática integrado ao ensino médio
+          no IFPB e agora estou cursando Ciência da Computação na UEPB.
         </p>
 
         <LinkButton

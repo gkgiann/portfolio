@@ -9,7 +9,7 @@ export function Home() {
         <h1>
           <RocketLaunch weight="bold" /> GIAN LUCAS
         </h1>
-        <span>{"<Desenvolvedor Front End Web />"}</span>
+        <span>{"<Desenvolvedor Web />"}</span>
       </InfoContainer>
 
       <img src={programmingImg} alt="" />
