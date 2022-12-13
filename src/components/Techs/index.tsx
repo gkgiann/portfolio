@@ -48,6 +48,21 @@ export function Techs() {
         />
 
         <Tech
+          title="NodeJS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        />
+
+        <Tech
+          title="NestJS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+        />
+
+        <Tech
+          title="Express"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        />
+
+        <Tech
           title="GitHub"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         />
