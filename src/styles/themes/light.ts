@@ -1,8 +1,8 @@
 export const lightTheme = {
-  bg: "#E7F6F2",
+  bg: "#F2F2F2",
   text: "#112031",
   "link-hover": "#395B64",
-  button: "#D4ECDD",
+  button: "#F2F2F2",
   "button-bg": "#1363DF",
   "footer-bg": "#A5C9CA",
 };
