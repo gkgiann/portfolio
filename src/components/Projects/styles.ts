@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  padding: 4rem 2.8rem;
-  margin-top: 4rem;
+  padding: 6.6rem 2.8rem;
+  margin-top: 1.2rem;
 
   h1 {
     font-size: 4rem;
+  }
+
+  @media (max-width: 710px) {
+    padding-top: 8rem;
   }
 `;
 
