@@ -6,7 +6,7 @@ import {
 } from "./styles";
 import { List, Moon, Sun, X } from "phosphor-react";
 import { IconButton, Link } from "../Header/styles";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 interface MenuMobileProps {
   isOpen: boolean;
@@ -21,6 +21,15 @@ export function MenuMobile({
   theme,
   toogleTheme,
 }: MenuMobileProps) {
+  const [scrollValue, setScrollValue] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const scroll = window.scrollY;
+      setScrollValue(scroll);
+    });
+  }, []);
+
   useEffect(() => {
     document.body.style.overflowY = isOpen ? "hidden" : "auto";
   }, [isOpen]);
@@ -59,7 +68,7 @@ export function MenuMobile({
   }
 
   return (
-    <MenuClosedContainer>
+    <MenuClosedContainer scroll={scrollValue}>
       <MenuIconButton title="Abrir menu" onClick={() => setIsOpen(true)}>
         <List size={28} weight="bold" />
       </MenuIconButton>
