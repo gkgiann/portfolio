@@ -5,6 +5,7 @@ export const HomeContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3.2rem;
 
   img {
     animation: img-animation 2s;

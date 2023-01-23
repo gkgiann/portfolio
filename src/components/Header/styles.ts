@@ -1,9 +1,25 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
+interface HeaderContainerProps {
+  scroll: number;
+}
+
+export const HeaderContainer = styled.header<HeaderContainerProps>`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  width: 100vw;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  z-index: 999;
+
+  box-shadow: ${(p) =>
+    p.scroll < 55 ? "none" : "0px 4px 4px rgba(0, 0, 0, 0.25)"};
+  background: ${(p) => (p.scroll < 55 ? "transparent" : p.theme["bg"])};
 
   gap: 2rem;
   font-size: 1.8rem;
