@@ -1,5 +1,7 @@
 import { AboutContainer, LinkButton } from "./styles";
 
+import GianCV from "../../assets/gianCV.pdf";
+
 export function About() {
   return (
     <AboutContainer id="about">
@@ -19,12 +21,8 @@ export function About() {
           no IFPB e agora estou cursando Ciência da Computação na UEPB.
         </p>
 
-        <LinkButton
-          data-aos="fade-up"
-          href="mailto:lgian584@gmail.com"
-          target="_blank"
-        >
-          Entre em contato
+        <LinkButton data-aos="fade-up" download href={GianCV} target="_blank">
+          Baixar CV
         </LinkButton>
       </div>
     </AboutContainer>
