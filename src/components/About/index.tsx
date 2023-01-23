@@ -22,7 +22,7 @@ export function About() {
         </p>
 
         <LinkButton data-aos="fade-up" download href={GianCV} target="_blank">
-          Baixar CV
+          Baixar currículo
         </LinkButton>
       </div>
     </AboutContainer>
