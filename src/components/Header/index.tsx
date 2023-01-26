@@ -1,5 +1,6 @@
 import { Moon, Sun } from "phosphor-react";
 import { useState, useEffect } from "react";
+import { useScroll } from "../../contexts/scroll";
 import { HeaderContainer, IconButton, Link } from "./styles";
 
 interface HeaderProps {
@@ -8,14 +9,7 @@ interface HeaderProps {
 }
 
 export function Header({ toogleTheme, theme }: HeaderProps) {
-  const [scrollValue, setScrollValue] = useState(0);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const scroll = window.scrollY;
-      setScrollValue(scroll);
-    });
-  }, []);
+  const { scrollValue } = useScroll();
 
   return (
     <HeaderContainer scroll={scrollValue}>

@@ -7,6 +7,7 @@ import {
 import { List, Moon, Sun, X } from "phosphor-react";
 import { IconButton, Link } from "../Header/styles";
 import { useEffect, useState } from "react";
+import { useScroll } from "../../contexts/scroll";
 
 interface MenuMobileProps {
   isOpen: boolean;
@@ -21,15 +22,7 @@ export function MenuMobile({
   theme,
   toogleTheme,
 }: MenuMobileProps) {
-  const [scrollValue, setScrollValue] = useState(0);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const scroll = window.scrollY;
-      setScrollValue(scroll);
-    });
-  }, []);
-
+  const { scrollValue } = useScroll();
   useEffect(() => {
     document.body.style.overflowY = isOpen ? "hidden" : "auto";
   }, [isOpen]);

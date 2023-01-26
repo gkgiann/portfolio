@@ -1,16 +1,10 @@
 import { ArrowUp } from "phosphor-react";
 import { useEffect, useState } from "react";
+import { useScroll } from "../../contexts/scroll";
 import { ButtonToTopContainer } from "./styles";
 
 export function ButtonToTop() {
-  const [scrollValue, setScrollValue] = useState(0);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      const scroll = window.scrollY;
-      setScrollValue(scroll);
-    });
-  }, []);
+  const { scrollValue } = useScroll();
 
   function handleButtonClick() {
     window.scrollTo({ top: 0 });
