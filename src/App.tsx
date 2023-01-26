@@ -13,6 +13,7 @@ import { GlobalStyle } from "./styles/global";
 import { darkTheme } from "./styles/themes/dark";
 import { lightTheme } from "./styles/themes/light";
 import { MenuMobile } from "./components/MenuMobile";
+import { ScrollContextProvider } from "./contexts/scroll";
 
 export function App() {
   const [theme, setTheme] = useState<"dark" | "light">("dark");
@@ -35,23 +36,25 @@ export function App() {
 
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
-      <GlobalStyle />
+      <ScrollContextProvider>
+        <GlobalStyle />
 
-      <MenuMobile
-        toogleTheme={toogleTheme}
-        theme={theme}
-        isOpen={menuMobileIsOpen}
-        setIsOpen={setIsOpen}
-      />
-      <Header toogleTheme={toogleTheme} theme={theme} />
+        <MenuMobile
+          toogleTheme={toogleTheme}
+          theme={theme}
+          isOpen={menuMobileIsOpen}
+          setIsOpen={setIsOpen}
+        />
+        <Header toogleTheme={toogleTheme} theme={theme} />
 
-      <Home />
-      <About />
-      <Techs />
-      <Projects />
-      <Footer />
+        <Home />
+        <About />
+        <Techs />
+        <Projects />
+        <Footer />
 
-      <ButtonToTop />
+        <ButtonToTop />
+      </ScrollContextProvider>
     </ThemeProvider>
   );
 }
