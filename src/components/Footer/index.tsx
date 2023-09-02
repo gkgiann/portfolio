@@ -13,7 +13,7 @@ export function Footer() {
         <a
           data-aos="fade-right"
           title="GitHub - Gian"
-          href="https://github.com/gian-lucas"
+          href="https://github.com/gkgiann"
           target="_blank"
         >
           <GithubLogo weight="fill" size={30} />
@@ -21,7 +21,7 @@ export function Footer() {
         <a
           data-aos="fade-down"
           title="LinkedIn - Gian"
-          href="https://www.linkedin.com/in/gian-lucas-66299618b"
+          href="https://www.linkedin.com/in/gkgian"
           target="_blank"
         >
           <LinkedinLogo weight="fill" size={30} />
@@ -29,7 +29,7 @@ export function Footer() {
         <a
           data-aos="fade-up"
           title="Instagram - Gian"
-          href="https://instagram.com/gian.tsx"
+          href="https://instagram.com/gkgian"
           target="_blank"
         >
           <InstagramLogo weight="fill" size={30} />
