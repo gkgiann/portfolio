@@ -14,10 +14,9 @@ export function About() {
       <div>
         <h1 data-aos="fade-down">Sobre mim</h1>
         <p data-aos="zoom-in">
-          Opa! Tudo bem? me chamo Gian Lucas, tenho 18 anos e sou apaixonado por
-          desenvolvimento web. Atualmente estou focado em estudar a stack
-          ReactJS + NextJS no front-end e NodeJS + (Express / NestJS) no
-          back-end. Fiz o curso técnico em informática integrado ao ensino médio
+          Opa! Tudo bem? me chamo Gian Lucas, tenho 19 anos e sou apaixonado por
+          desenvolvimento web. Tenho mais afinidade com a stack
+          ReactJS + NextJS + NodeJS. Além disso, tenho uma base bem sólida em Java e Python. Fiz o curso técnico em informática integrado ao ensino médio
           no IFPB e agora estou cursando Ciência da Computação na UEPB.
         </p>
 
