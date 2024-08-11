@@ -44,7 +44,7 @@ export function Footer() {
         </a>
       </div>
 
-      <p>Gian 2023. Todos os direitos reservados.</p>
+      <p>Gian 2024. Todos os direitos reservados.</p>
     </FooterContainer>
   );
 }
