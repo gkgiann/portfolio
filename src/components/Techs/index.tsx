@@ -39,7 +39,7 @@ export function Techs() {
 
         <Tech
           title="TailwindCSS"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
         />
 
         <Tech
@@ -49,17 +49,16 @@ export function Techs() {
 
         <Tech
           title="NodeJS"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
         />
 
         <Tech
-          title="NestJS"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+          title="Java"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
         />
 
-        <Tech
-          title="Express"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        <Tech title="Python"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
         />
 
         <Tech
