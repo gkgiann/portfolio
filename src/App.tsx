@@ -49,8 +49,8 @@ export function App() {
 
         <Home />
         <About />
-        <Techs />
         <Projects />
+        <Techs />
         <Footer />
 
         <ButtonToTop />
