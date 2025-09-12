@@ -9,6 +9,10 @@
   font-family: var(--font-preahvihear);
 }
 
+html {
+  @apply scroll-smooth;
+}
+
 body {
-  @apply bg-slate-950 text-slate-50;
+  @apply bg-gradient-to-r from-slate-950 to-violet-950 text-violet-100;
 }
