@@ -4,23 +4,3 @@ export interface Project {
   imageUrl: string;
   githubRepoUrl: string;
 }
-
-export interface ProjectPrismicResponse {
-  id: string;
-  data: {
-    description: [
-      {
-        text: string;
-      }
-    ];
-    image: {
-      url: string;
-    };
-    title: [
-      {
-        text: string;
-      }
-    ];
-    url: { url: string };
-  };
-}

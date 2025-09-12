@@ -1,10 +1,8 @@
 import { clientPrismic } from "../lib/prismic";
-import type { Project, ProjectPrismicResponse } from "../types/project";
+import type { Project } from "../types/project";
 
 export const fetchProjects = async (): Promise<Project[]> => {
-  const result: ProjectPrismicResponse[] = await clientPrismic.getAllByType(
-    "project"
-  );
+  const result = await clientPrismic.getAllByType("project");
 
   const projects: Project[] = result.map((p) => ({
     title: p.data.title[0].text,
