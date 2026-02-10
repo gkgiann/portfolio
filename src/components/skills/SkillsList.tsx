@@ -26,7 +26,7 @@ const SkillsList = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 mx-auto">
         <Skill name="Git" icon={SiGit} />
         <Skill name="GitHub" icon={SiGithub} />
-        <Skill name="React" icon={SiReact} />
+        <Skill name="ReactJS" icon={SiReact} />
         <Skill name="Next.js" icon={SiNextdotjs} />
         <Skill name="GitHub" icon={SiGithub} />
         <Skill name="JavaScript" icon={SiJavascript} />
