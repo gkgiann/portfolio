@@ -18,6 +18,7 @@ const Experiences = () => {
         focando em performance, escalabilidade e experiência do usuário.
       </p>
       <ul className="list-disc pl-6 space-y-4 text-violet-200 text-sm md:text-base">
+        <li>Migração de um sistema NextJS para uma versão React puro com padrões mais definidos e arquitetura sólida.</li>
         <li>
           Organização do projeto em componentes reutilizáveis, hooks
           personalizados, contextos e serviços, garantindo manutenibilidade e
