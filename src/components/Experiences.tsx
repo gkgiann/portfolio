@@ -8,7 +8,7 @@ const Experiences = () => {
         <span className="text-violet-600">Frontend Developer</span> na SUN4
         Softwares
         <span className="text-xs text-violet-100 ml-2">
-          Julho 2025 - Presente
+          Julho 2025 - Maio 2026
         </span>
       </h3>
       <p className="my-4 text-sm md:text-base">
@@ -18,7 +18,10 @@ const Experiences = () => {
         focando em performance, escalabilidade e experiência do usuário.
       </p>
       <ul className="list-disc pl-6 space-y-4 text-violet-200 text-sm md:text-base">
-        <li>Migração de um sistema NextJS para uma versão React puro com padrões mais definidos e arquitetura sólida.</li>
+        <li>
+          Migração de um sistema NextJS para uma versão React puro com padrões
+          mais definidos e arquitetura sólida.
+        </li>
         <li>
           Organização do projeto em componentes reutilizáveis, hooks
           personalizados, contextos e serviços, garantindo manutenibilidade e
