@@ -7,17 +7,17 @@ const Experiences = () => {
       <h3 className="text-xl md:text-2xl font-semibold text-violet-600 mb-2">
         <span className="text-violet-600">Frontend Developer</span> na SUN4
         Softwares
-        <span className="text-xs text-violet-100 ml-2">
+        <span className="text-sm text-violet-100 ml-2">
           Julho 2025 - Maio 2026
         </span>
       </h3>
-      <p className="my-4 text-sm md:text-base">
+      <p className="my-4 text-sm md:text-lg">
         Atuo no desenvolvimento de aplicações web modernas utilizando{" "}
         <span className="font-semibold text-violet-600">React</span> com{" "}
         <span className="font-semibold text-violet-600">TypeScript</span>,
         focando em performance, escalabilidade e experiência do usuário.
       </p>
-      <ul className="list-disc pl-6 space-y-4 text-violet-200 text-sm md:text-base">
+      <ul className="list-disc pl-6 space-y-4 text-violet-200 text-sm md:text-lg">
         <li>
           Migração de um sistema NextJS para uma versão React puro com padrões
           mais definidos e arquitetura sólida.
