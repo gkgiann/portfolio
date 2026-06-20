@@ -7,6 +7,7 @@ import {
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
@@ -38,6 +39,7 @@ const SkillsList = () => {
         <Skill name="Node.js" icon={SiNodedotjs} />
         <Skill name="Fastify" icon={SiFastify} />
         <Skill name="Express" icon={SiExpress} />
+        <Skill name="NestJS" icon={SiNestjs} />
         <Skill name="Postgres" icon={SiPostgresql} />
         <Skill name="Docker" icon={SiDocker} />
       </div>
