@@ -1,4 +1,4 @@
-import Experiences from "./components/Experiences";
+import Experiences from "./components/experiences/Experiences";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
